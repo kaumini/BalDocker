@@ -1,0 +1,8 @@
+[package]
+org = "kaumini"
+name = "BalDocker"
+version = "0.1.0"
+distribution = "2201.3.0-rc3"
+
+[build-options]
+observabilityIncluded = true
