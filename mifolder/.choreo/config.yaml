@@ -1,0 +1,14 @@
+apiVersion: core.choreo.dev/v1alpha1
+kind: ComponentConfig
+metadata:
+  name: testmi
+  projectName: testbuildpack
+  annotations:
+    componentType: miApiService
+spec:
+  inbound:
+    - name: testmi
+      port: 3000
+      type: REST
+      context: .
+      schemaFilePath: openapi.yaml
