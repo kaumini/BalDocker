@@ -1,13 +1,13 @@
 apiVersion: core.choreo.dev/v1alpha1
 kind: ComponentConfig
 metadata:
-  name: testBal
+  name: testBal2
   projectName: testbuildpack
   annotations:
     componentType: service
 spec:
   inbound:
-    - name: testBal
+    - name: testBal2
       port: 3000
       type: REST
       context: .
